@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main()
 {
-	char n;
-	printf("Enter a character");
-	scanf("%c",&n);
-	if(n=='a'|| n=='e'|| n=='i'|| n=='o'|| n=='u')
-	printf("Character is Vowel");
+	int n;
+	printf("Enter a no");
+	scanf("%d",&n);
+	if(n%2==0)
+	printf("No is even");
 	else
-	printf("Character is Consonant");
+	printf("No is odd");
 }
