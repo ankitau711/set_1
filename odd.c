@@ -7,6 +7,6 @@ void main()
 	for(i=p+1;i<q;i++)
 	{
 		if(i%2!=0)
-		printf("%d",i);
+		printf("%d\t",i);
 	}
 }
