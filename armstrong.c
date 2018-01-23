@@ -12,7 +12,7 @@ void main()
 		t/=10;
 	}
 	if(a==n)
-	printf("no is palindrome");
+	printf("no is armstrong");
 	else
-	printf("no is not palindrome");
+	printf("no is not armstrong");
 }
