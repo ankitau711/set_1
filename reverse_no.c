@@ -4,6 +4,10 @@ int main()
 	int a,n,s;
 	printf("Enter the no");
 	scanf("%d",&n);
+	if(n<0)
+		printf("Invalid number");
+	else
+	{
 	while(n!=0)
 	{
 		s=n%10;
@@ -11,5 +15,6 @@ int main()
 		n/=10;
 	}
 	printf("%d",a);
+	}
 	return 0;
 }
