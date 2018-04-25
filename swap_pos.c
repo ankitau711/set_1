@@ -7,11 +7,24 @@ void main()
 	printf("Enter the string");
 	scanf("%s",a);
 	l=strlen(a);
-	for(i=0;i<l;i+=2)
+	if(l%2==0)
 	{
-		t=a[i];
-		a[i]=a[i+1];
-		a[i+1]=t;
+		for(i=0;i<l;i+=2)
+		{
+			t=a[i];
+			a[i]=a[i+1];
+			a[i+1]=t;
+		}
 	}
+	else
+	{
+		for(i=0;i<l;i+=3)
+		{
+			t=a[i];
+			a[i]=a[i+1];
+			a[i+1]=t;
+		}
+	}
+	
 	printf("%s",a);
 }
